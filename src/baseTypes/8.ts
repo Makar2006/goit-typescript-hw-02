@@ -3,6 +3,19 @@
   який може містити значення "male", "female". Створіть змінну myGender цього типу.
 */
 
-const myGender;
+// type Gender = {
+//   [key: string]: string;
+// };
+
+// const myGender: Gender = {
+//   male: 'male',
+//   female: 'female',
+// };
+
+// OR
+
+type Gender = 'male' | 'female';
+
+let myGender: Gender = 'male';
 
 export {};
